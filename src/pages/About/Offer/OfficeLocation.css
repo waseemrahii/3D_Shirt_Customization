@@ -1,0 +1,124 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300i,400i,500i,600i,700i,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+.container {
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -1.5rem;
+  margin-right: calc(var(--bs-gutter-x) * -0.5);
+  margin-left: calc(var(--bs-gutter-x) * -0.5);
+}
+.office-row > * {
+    width: 24%;
+}
+
+.col-lg-3,
+.col-md-6 {
+  flex: 0 0 auto;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+
+.office-address {
+  height: 360px;
+  position: relative;
+}
+
+.office-address {
+  width: 100%;
+  transition: all 0.3s ease-in;
+}
+
+.office-one {
+  background-image: url('https://quiety-vue.themetags.com/img/office-img-1.48446c4a.jpg'); 
+  background-position: 50%;
+  background-size: cover;
+}
+
+.office-two {
+  background-image: url('https://quiety-vue.themetags.com/img/office-img-2.34a0e39e.jpg'); 
+  background-position: 100%;
+  background-size: cover;
+}
+
+.office-three {
+  background-image: url('https://quiety-vue.themetags.com/img/office-img-3.1748be9f.jpg'); 
+  background-position: 50%;
+  background-size: cover;
+}
+
+.office-four {
+  background-image: url('https://quiety-vue.themetags.com/img/office-img-4.456101a4.jpg');
+  background-position: 50%;
+  background-size: cover;
+}
+
+.office-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.45));
+}
+
+.office-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image covers the entire container */
+  }
+  
+.office-address:hover .office-overlay {
+  opacity: 1;
+}
+
+.office-overlay {
+  opacity: 0;
+  background-color: rgba(11, 22, 63, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s linear;
+  z-index: -1;
+}
+
+.office-info {
+  flex: 0 1 38%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(70%);
+  transition: all 0.3s linear;
+}
+
+.office-address:hover .office-info {
+  transform: translateY(0);
+}
+
+.office-info h5 {
+  color: #fff;
+  margin-bottom: 0.375rem;
+  font-weight: 600;
+}
+
+.office-info address {
+  color: #fff;
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+}

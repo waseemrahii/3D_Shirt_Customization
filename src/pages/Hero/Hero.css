@@ -1,0 +1,62 @@
+/* Existing styles */
+.hero-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.it-solution {
+  margin-top: 0;
+  margin-bottom: .625rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #000; /* Set heading color to black */
+  font-size: 3rem; /* Default font size */
+}
+.red-color
+{
+  background-color: #8f361f !important; 
+  color: white !important;
+  border-color: #8f361f;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: to add some styling to the image */
+} 
+
+/* New styles */
+.btn-primary {
+  margin-bottom: 0.5rem; /* Add space between buttons */
+}
+
+@media (max-width: 767.98px) {
+  .row {
+    flex-direction: column; /* Stack columns vertically on small screens */
+  }
+  .row > *{
+    width: 80% !important;
+    margin: 0 auto;
+  }
+  .text-container, .img-container {
+    width: 100%; /* Set both containers to take full width */
+    order: unset !important; /* Reset the order */
+  }
+
+  /* Adjust button alignment */
+  .action-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Adjust heading size for small screens */
+  .it-solution {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800,300i,400i,500i,600i,700i,800i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.office-row > * {
+    width: 24%;
+  }
+.teamSection {
+    padding: 120px 0;
+}
+
+.sectionHeading {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.sectionHeading h2 {
+    margin-top: 0;
+    margin-bottom: .625rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #0b163f;
+    font-size: calc(1.325rem + .9vw);
+}
+
+.sectionHeading h5 {
+    margin-bottom: .375rem;
+    font-weight: 600;
+}
+
+.teamImg {
+    position: relative;
+    overflow: hidden;
+}
+
+.img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    transition: all .3s ease;
+}
+
+.teamSingleWrap:hover .img {
+    transform: scale(1.1);
+    box-shadow: 0 0 1.25rem rgba(31, 45, 61, 0.05);
+}
+
+.teamSocialList {
+    position: absolute;
+    top: 8%;
+    right: -100%;
+    transition: all .3s ease;
+}
+
+.listItem {
+    margin: 3px 0!important;
+}
+
+.teamSingleWrap:hover .teamSocialList {
+    right: 8%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .12);
+}
+
+.teamSocialList li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 3px;
+    background: var(--bs-light);
+    color: var(--body-color);
+    transform: translateX(250px);
+    transition: all .4s ease-in-out;
+}
+
+.teamSingleWrap:hover .teamSocialList li a {
+    transform: translateX(0);
+}
+
+.fa {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    color: inherit;
+    color: var(--fa-color, inherit);
+}
+
+.fab {
+    font-family: Font Awesome\ 6 Brands;
+    font-weight: 400;
+}

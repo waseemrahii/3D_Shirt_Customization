@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap'); 
+@font-face { 
+  font-family:Gotham Narrow Bold;
+  font-weight:600;
+  src:url(https://www.prolook.com/wp-content/themes/plsports/dist/fonts/hco_fonts/woff2/GothamNarrow-Bold_e056edfc.woff2) format("woff2"),url(https://www.prolook.com/wp-content/themes/plsports/dist/fonts/hco_fonts/woff/GothamNarrow-Bold_b06d696d.woff) format("woff");
+} 
+@media all{     
+
+}  
+@media all{ 
+  * { 
+    -webkit-box-sizing: inherit; 
+    box-sizing: inherit;
+  } 
+
+  div { 
+    margin: 0; 
+    padding: 0;
+  } 
+
+  *  { 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+  } 
+
+  body { 
+    -moz-osx-font-smoothing: grayscale; 
+    -webkit-font-smoothing: antialiased; 
+    background: #fefefe; 
+    color: #0a0a0a; 
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    padding: 0;
+  } 
+
+  body { 
+    height: 100vh; 
+    margin: 0; 
+    overflow-x: hidden;
+  } 
+
+  body { 
+    color: #404040; 
+    font-family: Roboto Condensed,sans-serif; 
+    font-size: 1rem; 
+    line-height: 1.5;
+  } 
+
+  body { 
+    background: #f7f7f7;
+  } 
+
+  html { 
+    -ms-text-size-adjust: 100%; 
+    font-family: sans-serif;
+  } 
+
+  html { 
+    font-size: 100%;
+  } 
+
+  html { 
+    -webkit-text-size-adjust: 100%; 
+    line-height: 1.15;
+  } 
+
+  html { 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+  } 
+
+  .cd-wrapper  { 
+    padding: 40px; 
+    text-align: center;
+  } 
+
+  *,:after,:before { 
+    -webkit-box-sizing: inherit; 
+    box-sizing: inherit;
+  } 
+
+  * , .apparel-data ::after, .apparel-data ::before, .uniform-data ::after, .uniform-data ::before { 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+  } 
+
+  .apparel-data *, .apparel-data ::after, .apparel-data ::before, .uniform-data *, .uniform-data ::after, .uniform-data ::before { 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+  } 
+
+  h1 { 
+    margin: 0; 
+    padding: 0;
+  } 
+
+  h1 { 
+    
+    font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+    color: black !important;
+    text-rendering: optimizeLegibility;
+  } 
+
+  h1 { 
+    font-size: 1.5rem;
+  } 
+
+  h1 { 
+    line-height: 1.4; 
+    margin-bottom: .5rem; 
+    margin-top: 0;
+  } 
+}     
+
+@media print, screen and (min-width: 23.5em){ 
+  h1 { 
+    font-size: 3rem;
+  } 
+}     
+
+@media all{ 
+  h1 { 
+    font-size: 2em; 
+    margin: .67em 0;
+  } 
+
+  h1 { 
+    clear: both; 
+    font-family: Gotham Narrow Bold,sans-serif; 
+    font-weight: 600;
+  } 
+
+  .uniform-data .cd-header h1 { 
+    margin: 0; 
+    text-transform: uppercase;
+  } 
+
+  a { 
+    -webkit-text-decoration-skip: objects;
+  } 
+
+  a { 
+    color: #27ae60; 
+    cursor: pointer; 
+    line-height: inherit; 
+    text-decoration: none;
+  } 
+
+  a { 
+    background-color: transparent;
+  } 
+
+  a { 
+    font-family: Gotham Narrow Bold;
+  } 
+
+  a { 
+    color: #4169e1;
+  } 
+
+  a:visited { 
+    color: purple;
+  } 
+
+  .uniform-data a { 
+    color: #41307c; 
+    text-decoration: none;
+  } 
+
+  a:active,a:hover { 
+    outline-width: 0;
+  } 
+
+  a:hover { 
+    color: #229653;
+  } 
+
+  a:active,a:hover { 
+    color: #191970;
+  } 
+
+  a:active,a:hover { 
+    outline: 0;
+  } 
+}     
+
+
