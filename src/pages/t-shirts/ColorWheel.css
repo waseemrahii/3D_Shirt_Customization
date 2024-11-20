@@ -1,0 +1,55 @@
+
+   .color-wheel-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    /* border: 2px solid black; */
+  }
+  
+  .color-wheel-container:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
+  .inner-circle {
+    width: 120px; /* Adjusted size to leave a gap */
+    height: 120px;
+    margin: 3px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Inner circle shadow */
+    transition: background-color 0.3s ease;
+    /* border: 5px solid black; Gap between inner and outer circles */
+  }
+  
+  .center-circle {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .inner-circle:hover {
+    transform: scale(1.1); /* Zoom in on inner circle when hovering over the wheel */
+  }
+  
+  .center-circle span {
+    font-size: 16px;
+    color: #333;
+  }
+  

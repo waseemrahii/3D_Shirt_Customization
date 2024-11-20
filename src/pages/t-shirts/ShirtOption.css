@@ -1,0 +1,27 @@
+.shirt-options {
+    padding: 20px;
+    background: #f9f9f9; /* Light background for the options area */
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .options-container {
+    margin-top: 20px; /* Space between the color picker and the options */
+    background: gray;
+    display: flex;
+    justify-content: space-around;
+}
+.option-button {
+    padding: 4px 5px;
+    background-color: gray; 
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .option-button:hover {
+    background-color: #8d928d; /* Darker green on hover */
+  }
+  

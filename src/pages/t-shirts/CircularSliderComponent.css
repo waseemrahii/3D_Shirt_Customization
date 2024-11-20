@@ -1,0 +1,20 @@
+.circular-slider-container {
+    position: relative;
+    display: inline-block;
+    cursor: grab;
+  }
+  
+  .circular-slider-container:active {
+    cursor: grabbing;
+  }
+  
+  .slider-label {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .knob-icon {
+    transition: transform 0.1s ease;
+  }
+  

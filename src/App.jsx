@@ -8,7 +8,6 @@ import SignUp from './components/Signup/Signup';
 import Contact_Page from './pages/Contact/Contact_Page';
 import ContactMessages from './pages/Contact/ContactMessages';
 import CustomizerPage from './pages/t-shirts/CustomizerPage';
-
 function App() {
   return (
     <Router>
